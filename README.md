@@ -13,7 +13,7 @@ SwipeComponent = CreateDefaultSubobject<USwipeComponent>(TEXT("TouchComp"));
 UFUNCTION()
 void TouchSwipeLeft(ETouchIndex::Type FingerIndex, FVector Location);
 ```
-3. Binding UFunction for .</br>绑定响应滑动操作的UFunction
+3. Binding UFunction.</br>绑定响应滑动操作的UFunction
 ```C++
 SwipeComponent->OnSwipeLeft.AddDynamic(this, &UYourActorClass::TouchSwipeLeft);
 ```
