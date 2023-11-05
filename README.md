@@ -21,9 +21,9 @@ SwipeComponent->OnSwipeLeft.AddDynamic(this, &UYourActorClass::TouchSwipeLeft);
 4. Then you can do what you wanna to do in your function!</br>大功告成，然后你就可以写对应的逻辑了！
 ### BluePrint 蓝图
 ~~Damn, I almost forgot the blueprint!~~</br>~~玛德，差点把蓝图给忘了！~~
-1. Add the Swipe component to the BP of Actor.</br>把Swipe插件添加到Actor的蓝图
+1. Add the Swipe component to the BP of Actor.</br>把Swipe插件添加到Actor的蓝图</br>
 ![image](Image/Snipaste_2023-11-05_20-49-08.png)
-2. Add events to the graph and connect them to your nodes.</br>添加你需要的事件，连接到对应的节点
+3. Add events to the graph and connect them to your nodes.</br>添加你需要的事件，连接到对应的节点</br>
 ![image](Image/Snipaste_2023-11-05_20-36-40.png)
 ## P.s. 附言
 Trying to update. mail me, any questions.</br>持续更新中，有问题发邮件问我
